@@ -73,15 +73,20 @@
 // дни недели, а выходные дни выведите жирным.
 
 
-let arrWeek = [`ПН`, `ВТ`, `СР`, `ЧТ`, `ПТ`, `СБ`, `ВС`];
+// let arrWeek = [`ПН`, `ВТ`, `СР`, `ЧТ`, `ПТ`, `СБ`, `ВС`];
 
-for (let i = 0 ; i < arrWeek.length; i++){
+// for (let i = 0 ; i < arrWeek.length; i++){
 
-    if ( arrWeek[i] !== `СБ` && arrWeek[i] !== `ВС`) {
+//     if ( arrWeek[i] !== `СБ` && arrWeek[i] !== `ВС`) {
 
-        document.write(`${arrWeek[i]} `);
-    } else {
-        document.write(`${arrWeek[i].bold()} `);
-    }
+//         document.write(`${arrWeek[i]} `);
+//     } else {
+//         document.write(`${arrWeek[i].bold()} `);
+//     }
 
-}
+// }
+
+// 6. Создайте массив с произвольными данными. Добавьте в конец массива любой элемент,
+// и получите последний элемент массива, используя свойство length.
+
+let arrWeek = [113,  `Van`, `Cat`, 45, `Sun`, 87];
